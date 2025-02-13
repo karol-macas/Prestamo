@@ -1,0 +1,11 @@
+﻿namespace PlataformaPrestamos.Models
+{
+    public class Usuario
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Email { get; set; }
+        public string ContraseñaHash { get; set; }
+        public string Rol { get; set; } // "Admin" o "User"
+    }
+}
